@@ -84,6 +84,10 @@ form.search input[type=submit],
   width: 7em;
 }
 
+#dashboard ul {
+  border: #000000;
+}
+
 .notice,
 .comment_notice,
 .kudos_notice,
