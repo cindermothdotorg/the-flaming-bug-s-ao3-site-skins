@@ -50,6 +50,7 @@
 #header .dropdown .menu,
 #header .dropdown:hover a {
   background: #3a100c;
+  border: 2px #000000;
   box-shadow: 0px 0px 3px #000000;
 }
 
@@ -113,8 +114,7 @@ ul.notes a,
 
 .splash .module h3 {
   color: #e38881;
-  border: 1px solid #000000;
-  background: #000000;
+  border: none;
 }
 
 .splash .news li {
@@ -169,7 +169,7 @@ input[type="submit"],
 ul.navigation.actions li a,
 .action:link,
 .actions a:link {
-  background: #922820;
+  background: #752019;
   border: 1px solid #000000;
   color: #dd6c64 !important;
   box-shadow: 0px 0px 3px #000000;
@@ -211,17 +211,25 @@ button:hover {
 }
 
 dl.meta {
-  border: 1px solid #000000;
+  border: 2px solid #000000;
+  background: #571813; 
   box-shadow: 0px 0px 3px #000000;
 }
 
 .listbox .index {
   background: #3a100c;
+  box-shadow: none;
 }
 
 .listbox,
 fieldset fieldset.listbox {
   background: #000000;
+  box-shadow: 0px 0px 3px #000000;
+  border: #000000;
+}
+
+media-index .listbox {
+  border: #000000;
   box-shadow: 0px 0px 3px #000000;
 }
 
@@ -270,6 +278,11 @@ div.dynamic {
 
 .dropdown {
   background: #3a100c;
+}
+
+h4 {
+  border: #000000;
+  color: #000000;
 }
 
 form.verbose legend,
@@ -628,6 +641,11 @@ li.mark button:hover {
   height: auto;
   width: auto;
   display: inline;
+}
+
+.landmark {
+  border: #000000;
+  color: #000000;
 }
 
 #header h1 a span:hover {
