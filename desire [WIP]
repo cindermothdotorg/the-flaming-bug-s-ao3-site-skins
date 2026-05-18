@@ -36,6 +36,10 @@
   color: #e38881;
 }
 
+.wrapper {
+  box-shadow: 0px 0px 3px #000000;
+}
+
 #main a {
   color: #922820;
 }
@@ -58,8 +62,34 @@ span.submit.actions input.button {
   display: none;
 }
 
+html,
+body,
+span, 
+applet,
+object, 
+iframe, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5,
+h6, 
+p, 
+blockquote, 
+pre, 
+a, 
+abbr, 
+acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  line-height: 1.8;
+}
+
 #greeting img.icon {
   display: none;
+}
+
+.bookmark .status span, .bookmark .status a {
+  width: 20px;
+  height: 20px;
 }
 
 #header #search .text,
@@ -68,6 +98,10 @@ span.submit.actions input.button {
   box-shadow: 0px 0px 3px #000000;
   color: #e38881 !important;
   border: 1px solid #3a100c;
+}
+
+form {
+  background-color: #260604;
 }
 
 form.search input[type=text],
@@ -86,6 +120,7 @@ form.search input[type=submit],
 
 #dashboard ul {
   border: #000000;
+  border-top: 2px solid #000000;
 }
 
 .notice,
@@ -101,6 +136,7 @@ ul.notes,
   box-shadow: 0px 0px 3px #000000 !important;
   color: #e38881;
   border: #922820;
+  line-height: 1.8;
 }
 
 .notice a,
@@ -149,7 +185,7 @@ ul.notes a,
 }
 
 #footer {
-  background: #752019;
+  background: #3a100c;
   color: #e38881;
   box-shadow: 0px 0px 3px #000000;
 }
@@ -197,6 +233,7 @@ button:hover {
   color: #e38881 !important;
   box-shadow: 0px 0px 3px #000000 !important;
   border-radius: 5px;
+  border-color: #000000;
 }
 
 #dashboard.own {
@@ -214,10 +251,25 @@ button:hover {
   color: #e38881;
 }
 
+.picture .header {
+  border-bottom: 1px solid #000000;
+}
+
+form dt {
+  border-bottom: #f3efec00;
+}
+
+.secondary {
+  background: #000000;
+  border: 2px solid #000000;
+  box-shadow: 0px 0px 3px #000000;
+}
+
 dl.meta {
   border: 2px solid #000000;
-  background: #571813; 
+  background: #3a100c; 
   box-shadow: 0px 0px 3px #000000;
+  line-height: 1.8;
 }
 
 .listbox .index {
@@ -227,14 +279,23 @@ dl.meta {
 
 .listbox,
 fieldset fieldset.listbox {
-  background: #000000;
+  background: #3a100c;
   box-shadow: 0px 0px 3px #000000;
   border: #000000;
+  margin: 10em auto;
 }
 
 media-index .listbox {
   border: #000000;
   box-shadow: 0px 0px 3px #000000;
+}
+
+.listbox .heading {
+  color: #e38881;
+}
+
+form dd.required {
+  color: #e38881;
 }
 
 form dl,
@@ -261,6 +322,7 @@ span.symbol.question,
 label,
 label.required {
   color: #e38881;
+  line-height: 1.8;
 }
 
 span.delete {
@@ -286,20 +348,21 @@ div.dynamic {
 
 h4 {
   border: #000000;
-  color: #000000;
+  color: #b65151;
 }
 
 form.verbose legend,
 .verbose form legend {
   background: #000000;
   color: #e38881;
+  border: 2px solid #000000;
   box-shadow: 0px 0px 3px #000000;
 }
 
 li.blurb {
   border: 1px solid #000000;
   box-shadow: 0px 0px 3px #000000;
-  background: #571813;
+  background: #3f0e0a;
 }
 
 .draft {
@@ -342,6 +405,7 @@ table,
 th,
 dt.child {
   background: #3a100c;
+  line-height: 1.8;
 }
 
 #modal,
@@ -476,7 +540,7 @@ span.complete-no {
 }
 
 .blurb .header ul.required-tags li span.text {
-  color: #cd382c;
+  color: #922820;
   font-weight: normal;
 }
 
@@ -494,7 +558,7 @@ span.complete-no {
 }
 
 .blurb .header ul.required-tags li + li + li span.text {
-  color: #cd382c;
+  color: #922820;
   font-weight: normal;
 }
 
@@ -511,7 +575,7 @@ span.complete-no {
 }
 
 .blurb .header ul.required-tags li + li + li +li span.text {
-  color: #cd382c;
+  color: #922820;
   font-weight: normal;
 }
 
@@ -679,7 +743,7 @@ a.tag:hover {
 
 .resp-sharing-button--bluesky,
 .resp-sharing-button--tumblr {
-  background-color: #752019 !important;
+  background-color: #3f0e0a !important;
   color: #cd382c !important;
 }
 
@@ -689,4 +753,8 @@ a:focus .resp-sharing-button--bluesky,
 a:focus .resp-sharing-button--tumblr {
   background-color: #af3026 !important;
   color: #dd6c64 !important;
+}
+
+#header .menu li {
+  border-bottom: 1px solid #000000;
 }
