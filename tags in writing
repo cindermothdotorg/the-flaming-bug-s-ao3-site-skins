@@ -1,3 +1,4 @@
+/* credits to memorizingthedigitsofpi */
 li.blurb ul.required-tags li span {
   background: none;
 }
