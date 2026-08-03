@@ -506,6 +506,12 @@ ul.tags li.relationships,
 ul.tags li.characters,
 ul.tags li.freeforms {
   float: left !important;
+}
+
+li.warnings,
+li.relationships,
+li.characters,
+li.freeforms {
   color: #e38881 !important;
 }
 
