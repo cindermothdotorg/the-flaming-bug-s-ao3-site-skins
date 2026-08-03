@@ -671,3 +671,16 @@ a:focus .resp-sharing-button--tumblr {
 #header .menu li {
   border-bottom: 1px solid #000000;
 }
+
+.home .primary {
+  margin: 0 0 0.643em;
+}
+
+.module {
+  position: relative;
+}
+
+#main {
+  line-height: 1.286;
+}
+
