@@ -1,0 +1,52 @@
+Welcome to my skin space! :)
+Keep in mind as you use these codes that while I wrote/heavily edited to create the main skin codes, a lot of the add-ons were created by other users.
+At the time of writing this, I'll have added/planned to add credit indications at the top of any code that is not my own. These will be bracketed with /* */ and will refer to AO3 usernames.
+Speaking of /* */, pay attention to that!! Commentary through that indicates values that can be adjusted, such as changing the color of the newly non-icon tags since those don't automatically match skins in an appealing way.
+
+////
+
+How to create a site skin with this code:
+> Dashboard
+> Skins
+> Create Site Skin
+> Fill out relevant information and boxes
+    - Make sure it's set to "Write Custom CSS"
+    - Type Should be Site Skin, unless I make work skins in the future
+    - Give unique name. Can be keysmash.
+    - Paste code. Make sure you select and paste ALL of the code, even commentary (the 'brackets' prevent it from causing an error, I believe.)
+> Submit and start using!
+
+////
+
+Add-Ons: How to Use
+You can just add the code onto a site skin you're using, but it'll be better housekeeping to do this and allow yourself to apply add-ons to any skin (even if they need to be adjusted to fit aesthetically).
+> Create a skin with the add-on code
+> Go to the main skin and edit
+> Scroll to the bottom and show Advanced
+> Add parent skin
+> Type/paste the name you gave the add-on skin code
+> Submit and start using!
+
+////
+
+I don't really check my github unless I'm working on skins, so if you want to contact me your best bet will be either commenting on the relevant AO3 work or slipping into my Tumblr askbox at fryingthepanwithapplesauce.
+That being said, I sometimes get tired responsing to requests and questions I've already answered to some capacity. Please look for the answer before asking. I'll add a common QNA section to this page to try and help.
+CREDITS!!!!
+I really appreciate proper credit, and get really excited seeing that someone likes my skin, so if you post about my skins on the following places I have socials I encourage you to tag/mention/@ me!!
+If you link to the skin, please specifically link to this page so people actually read it.
+Tumblr - fryingthepanwithapplesauce
+TikTok - cindermoth.org
+YouTube - cindermothdotorg
+Pinterest - cindermoth.org
+
+////
+
+DESCRIPTIONS OF CODES!!!!
+condensed tags with scroll wheel: add-on that limits the amount of tags visible, ading a scroll bar when the tags exceed the limit. Good for preventing tag walls when browsing.
+desire: vampire-themed site skin with a lot of dark reds.
+ether: glowy dark purple and lavender wisteria-esque skin.
+tags in writing: replaces the reqiured infor (like rating) icons in the top left of blurbs with wrtten-out tagline under the fandoms.
+
+////
+
+COMMON QUESTIONS! Will update as I go.
