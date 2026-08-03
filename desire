@@ -431,7 +431,7 @@ li.comment {
 }
 
 .thread .even {
-  background: #dd6c64;
+  background: #3a100c;
 }
 
 .unread {
