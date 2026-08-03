@@ -1,5 +1,6 @@
+/* credits to Tumblr user triangularstars for the banner art! https://www.tumblr.com/triangularstars/685334918482493440/a-wisteria-background-i-made-3?source=share */
 #header {
-  background-image: url("https://64.media.tumblr.com/bef030efc6b34ff946454a616066bf46/8b18f7d08a990d08-14/s1280x1920/9ce20761d53013b8b292a69f142eb92def39f02a.jpg");
+  background-image: url("https://64.media.tumblr.com/53fbb7da10ff97e7f87d7ab0187d92e2/77db8e8cea6d5ecb-81/s540x810/fa95966f7da0b2cc3d98fcae6c7bf2a0aad7c4b3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -422,111 +423,6 @@ ol.pagination li {
   color: #b29ad9 !important;
 }
 
-.blurb .header ul.required-tags {
-  display: flex;
-  flex-wrap: nowrap;
-  column-gap: 1em;
-  position: unset;
-  width: auto;
-  margin-block: 0.375em;
-}
-
-.blurb:not(.picture.blurb,
-.mystery.blurb) .header .heading {
-  margin-left: 0;
-}
-
-span.rating,
-span.category,
-span.warning-yes,
-span.warning-no,
-span.warning-choosenotto,
-span.complete-yes,
-span.complete-no {
-  background-image: none !important;
-  width: 100%;
-}
-
-.blurb span.text {
-  line-height: 1.75em;
-  font-size: 100%;
-}
-
-.blurb .header ul.required-tags li {
-  position: unset;
-  text-wrap: nowrap;
-  padding-right: 2em;
-}
-
-.blurb .header ul.required-tags li span.text::before {
-  content: "Rating: ";
-  color: #d2cef9;
-  font-weight: bold;
-}
-
-.blurb .header ul.required-tags li span.text {
-  color: #6600ba;
-  font-weight: normal;
-}
-
-.blurb .header ul.required-tags li + li {
-  position: relative;
-  top: 1.4em;
-  left: -4.8em;
-}
-
-.blurb .header ul.required-tags li + li span.text::before {
-  content: "Warnings: ";
-  color: #d2cef9;
-  font-weight: bold;
-}
-
-.blurb .header ul.required-tags li + li span.text {
-  font-weight: normal;
-}
-
-.blurb .header ul.required-tags li + li + li {
-  position: relative;
-  top: 2.8em;
-  left: -9.6em;
-}
-
-.blurb .header ul.required-tags li + li + li span.text::before {
-  content: "Category: ";
-  color: #d2cef9;
-  font-weight: bold;
-}
-
-.blurb .header ul.required-tags li + li + li span.text {
-  color: #0025ba;
-  font-weight: normal;
-}
-
-.blurb .header ul.required-tags li + li + li +li {
-  position: relative;
-  top: 4.2em;
-  left: -14.4em;
-}
-
-.blurb .header ul.required-tags li + li + li +li span.text::before {
-  content: "Status: ";
-  color: #d2cef9;
-  font-weight: bold;
-}
-
-.blurb .header ul.required-tags li + li + li +li span.text {
-  color: #0051ba;
-  font-weight: normal;
-}
-
-li.warnings {
-  display: none !important;
-}
-
-ul.tags.commas {
-  margin-top: 3.4em;
-}
-
 li.blurb blockquote.userstuff.summary {
   padding-top: 1em;
 }
@@ -608,11 +504,6 @@ li.blurb ul.tags li.warnings a {
 
 .index .skins .icon {
   display: none;
-}
-
-li.blurb .tags {
-  max-height: 7.5em;
-  overflow-y: auto;
 }
 
 li.mark button {
