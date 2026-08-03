@@ -1,3 +1,4 @@
+/* credits to memorizingthedigitsofpi */
 li.blurb .tags {   
   max-height: 7.5em;   
   overflow-y: auto; 
