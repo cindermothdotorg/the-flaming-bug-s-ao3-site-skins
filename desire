@@ -508,13 +508,6 @@ ul.tags li.freeforms {
   float: left !important;
 }
 
-li.warnings,
-li.relationships,
-li.characters,
-li.freeforms {
-  color: #e38881 !important;
-}
-
 li.warnings + li.relationships,
 li.relationships + li.characters,
 li.characters + li.freeforms,
@@ -539,36 +532,43 @@ ul.tags li a.tag {
 ul.tags li.warnings:first-child:before {
   content: "Archive Warnings: ";
   font-weight: bold;
+  color: #e38881 !important;
 }
 
 li.warnings + li.relationships:before {
   content: "Relationships: ";
+  color: #e38881 !important;
   font-weight: bold;
 }
 
 li.relationships + li.characters:before {
   content: "Characters: ";
   font-weight: bold;
+  color: #e38881 !important;
 }
 
 li.characters + li.freeforms:before {
   content: "Additional Tags: ";
   font-weight: bold;
+  color: #e38881 !important;
 }
 
 li.warnings + li.characters:before {
   content: "Characters: ";
+  color: #e38881 !important;
   font-weight: bold;
 }
 
 li.warnings + li.freeforms:before {
   content: "Additional Tags: ";
   font-weight: bold;
+  color: #e38881 !important;
 }
 
 li.relationships + li.freeforms:before {
   content: "Additional Tags: ";
   font-weight: bold;
+  color: #e38881 !important;
 }
 
 li.blurb ul.tags a {
